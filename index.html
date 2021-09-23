@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhamad Aqmal Maulana</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div>
+            <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+        </div>
+    
+        <div class="navbar-menu font-fam">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Image -->
+    <div class="container header flx u-select" id="home">
+        <div class="hero">
+        </div>
+        <div class="text-hero">
+            <h2 class="typewriter font-fam">Hello, I'm</h2>
+            <h1 class="typewriter font-fam">MUHAMAD AQMAL MAULANA</h1>
+            <ul>
+                <li><a href="https://www.facebook.com/muhamad.a.maulana.5055233"><i class="bi bi-facebook color-btn hover-icon"></i></a></li>
+                <li><a href="https://www.instagram.com/malmalaq_/"><i class="bi bi-instagram color-btn hover-icon"></i></a></li>
+                <li><a href="https://wa.me/+6289662944001?text=Halo%20Bang"><i class="bi bi-whatsapp color-btn hover-icon"></i></a></li>
+            </ul>
+            <a href="file-download/resume.pdf" download="Resume Muhamad Aqmal Maulama" class="resume font-fam">Download Resume</a>
+        </div>
+        <div class="hero-image">
+            <img src="img/hero.png" alt="#">
+        </div>
+    </div>
+
+    <div class="main font-fam">
+        <div class="container abs card-about" id="about">
+            <h1>Tentang Saya</h1>
+            <div class="about flx">
+                <div class="about-photo padd">
+                    <img src="img/hero.png" alt="">
+                </div>
+                <div class="about-text padd">
+                    <p>Saya Muhamad Aqmal Maulana, Yang sedang belajar untuk menjadi seorang web developer. Berasal dari Kota Tasikmalaya, Jawa Barat. Saya merupakan lulusan SMK Jurusan Multimedia</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="btn-tabs">
+    <button class="bi bi-book" onclick="openTabs('Pendidikan')" for="educ"> Pendidikan</button>
+    <button class="bi bi-journal-text" onclick="openTabs('Pengalaman')" for="expe"> Pengalaman</button>
+</div>
+
+  <section class="timeline font-fam hidden-tabs transition" id="Pendidikan" style="display: block;">
+    <ul>
+        <li>
+            <div>
+                <time>2018 - 2021 at SMKN 1 Tasikmalaya</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2015 - 2018 at SMPN 13 Tasikmalaya</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+            </div>
+        </li>
+        <li>
+          <div>
+            <time>2009 - 2015 at SDN Panyingkiran</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+          </div>
+        </li>
+    </ul>
+</section>
+  <section class="timeline font-fam hidden-tabs transition" id="Pengalaman">
+    <ul>
+        <li>
+            <div>
+                <time>Lorem, ipsum.</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>Lorem ipsum dolor sit amet.</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+            </div>
+        </li>
+        <li>
+          <div>
+            <time>Lorem ipsum dolor sit amet.</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+          </div>
+        </li>
+    </ul>
+</section>
+
+<div class="project font-fam" id="project">
+    <h1 class="judul">Project Saya</h1>
+    <div>
+        <h1 class="isi u-select">COMING SOON</h1>
+    </div>
+</div>
+
+<div class="tittle-footer font-fam" id="contact">
+    <h1>Tidak Tertarik dengan saya? Tidak Mau Bekerja Sama? GPP ehe</h1>
+</div>
+<footer class="flx footer font-fam">
+    <div class="form">
+        <h1>Kontak Kami</h1>
+        <form action="#">
+            <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email Address | Tapi belum jalan gan ehehe" autocomplete>
+            <Button>Kirim Email</Button>
+        </form>
+        </form>
+    </div>
+    <div class="medsos">
+        <h1>Media Social</h1>
+        <ul class="flx circle">
+            <li><a href=""></a><i class="bi bi-facebook"></i></a></li>
+            <li><a href=""></a><i class="bi bi-instagram"></i></a></li>
+            <li><a href=""></a><i class="bi bi-whatsapp"></i></a></li>
+            <li><a href=""></a><i class="bi bi-envelope"></i></a></li>
+        </ul>
+    </div>
+</footer>
+<footer class="copyright font-fam">
+    <p>&copy;Copyright Muhamad Aqmal Maulana</p>
+</footer>
+</body>
+</html>
