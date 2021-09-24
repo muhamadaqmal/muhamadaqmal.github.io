@@ -1,3 +1,4 @@
+/* For tab */
 @media only screen and (max-width:800px) {
     .navbar-menu {
         width: 60%;
@@ -76,4 +77,19 @@
     .copyright {
         font-size: 1em;
     }
+}
+
+/* For Smartphone */
+
+@media only screen and (max-width:500px) {
+    .navbar-menu {
+        display: none;
+    }
+
+
+    nav {
+        justify-content: space-between;
+        padding: 5px 0 0 50px;
+    }
+    
 }
