@@ -53,3 +53,7 @@ function openTabs(Tabsname) {
   }
   document.getElementById(Tabsname).style.display = "block";  
 }
+
+function click-alert {
+  alert("Maaf Bang Aku Gapunya Facebook, tapi aku punya sidia eheh")
+}
