@@ -1,0 +1,79 @@
+@media only screen and (max-width:800px) {
+    .navbar-menu {
+        width: 60%;
+    }
+
+    .header {
+        height: 100%;
+    }
+
+    .text-hero {
+        padding-left: 20px;
+    }
+
+    .text-hero h2 {
+        font-size: 0.8em;
+    }
+
+    .text-hero h1 {
+        font-size: 20px;
+    }
+
+    .text-hero .bi {
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .text-hero a {
+        font-size: 10px;
+    }
+
+    .hero-image img {
+        width: 150px;
+    }
+
+    .abs {
+        top: -100px;
+    }
+    .card-about h1 {
+        font-size: 20px;
+    }
+    .card-about .about-text {
+        font-size: 14px;
+    }
+
+    .btn-tabs .bi {
+        font-size: 18px;
+    }
+
+    section .in-view time {
+        font-size: 18px;
+    }
+
+    .project .isi {
+        line-height: 350px;
+        height: 350px;
+        font-size: 50px;
+    }
+    .tittle-footer h1 {
+        font-size: 1.2rem;
+    }
+
+    .footer h1 {
+        font-size: 1.2rem;
+    }
+    .footer .form button {
+        width: 50%;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    .medsos ul li i {
+        font-size: 20px;
+    }
+    .copyright {
+        font-size: 1em;
+    }
+}
