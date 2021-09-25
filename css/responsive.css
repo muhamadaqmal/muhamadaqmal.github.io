@@ -126,4 +126,9 @@
     .abs {
         top: -10px;
     }
+    .project .isi {
+        line-height: 350px;
+        height: 350px;
+        font-size: 30px;
+    }
 }
