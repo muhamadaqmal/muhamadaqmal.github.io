@@ -86,10 +86,44 @@
         display: none;
     }
 
-
-    nav {
+    nav, .sticky {
         justify-content: space-between;
         padding: 5px 0 0 50px;
     }
+
+    .header {
+        display: inline-block;
+        background: linear-gradient(-90deg, rgb(99, 99, 99), #fff );
+        padding-bottom: 90px;
+    }
+
+    .hero-image {
+        text-align: center;
+    }
+
+    .hero-image img {
+        margin: 0px auto;
+        transform: translateY(-80px);
+        width: 120px;
+    }
+
+    .text-hero {
+        transform: translateY(320px);
+        text-align: center;
+    }
+
+    .text-hero ul {
+        justify-content: center;
+    }
     
+    .about-photo {display: none;}
+
+    .card-about {
+        width: 86%;
+        height: 100%;
+    }
+
+    .abs {
+        top: -10px;
+    }
 }
