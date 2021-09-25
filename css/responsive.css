@@ -131,4 +131,26 @@
         height: 350px;
         font-size: 30px;
     }
+
+    .footer {
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+    }
+
+    .form {
+        
+    }
+
+    .footer input[type=email] {
+        width: 300%;
+    }
+    
+    .medsos ul {
+        justify-content: center;
+    }
+
+    .medsos ul li {
+        padding: 5px;
+    }
 }
